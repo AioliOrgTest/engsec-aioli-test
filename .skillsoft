@@ -1,0 +1,13 @@
+#DOCUMENTATION: https://skillsoftdev.atlassian.net/wiki/spaces/devops/pages/3363799041/Service+Source+of+Truth+-+The+new+.skillsoft+file
+harnessServiceName: engsec-aioli-test
+healthCheckAll: true
+healthCheckAllUser: engsec-aioli-test-username-<+env.name>
+healthCheckAllPassword: engsec-aioli-test-password-<+env.name>
+includeCDTests: [UI,BFF,BE]
+newRelicAppName: engsec-aioli-test
+podAnnotations:
+  jiraKey: ENGSEC
+  repo: https://github.skillsoft.com/AioliOrgTest/engsec-aioli-test
+  squad: ENGSEC
+runCDTests: false
+slackNotificationChannel: ENGSEC-squad
