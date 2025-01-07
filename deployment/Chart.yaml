@@ -1,0 +1,5 @@
+apiVersion: v2
+name: engsec-aioli-test
+description: This project will allow us to test changes on Aioli API
+type: application
+version: 0.0.1
