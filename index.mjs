@@ -1,3 +1,3 @@
-import start from './app/server.mjs';
+import start from './app/server.mjs'
 
-start();
+start()
