@@ -9,7 +9,7 @@ import health from './routes/health.mjs';
 import api from './routes/api.mjs';
 import requestLogger from './middlewares/expressLogger.mjs';
 
-const app = express();
+const app = express()
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
