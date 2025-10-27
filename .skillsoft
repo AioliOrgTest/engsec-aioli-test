@@ -10,4 +10,4 @@ podAnnotations:
   repo: https://github.skillsoft.com/AioliOrgTest/engsec-aioli-test
   squad: ENGSEC
 runCDTests: false
-slackNotificationChannel: ENGSEC-squad
+slackNotificationChannel: ENGSEC-notify
